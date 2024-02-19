@@ -56,8 +56,10 @@ RZ/T2Mでは最大8個のエンコーダと同時に通信可能です。
 ![rsk-encoder_pin](https://github.com/shimafuji-fvio/encif_rzt2_t-format-like_quad/assets/48343451/b63cee45-218c-412d-8aaf-80ab73303e2d)
 
 - ルネサス製評価ボードとPCを接続する
-  - ルネサス製評価ボードのコンソール用USBコネクタ(CN16)とPCを接続する
   - ルネサス製評価ボードのデバッガ用USBコネクタ(J10)とPCを接続する
+  - ルネサス製評価ボードのコンソール用USBコネクタ(CN16)とPCを接続する
+    - ボーレート：19200bps
+    - データ：8bit、パリティ無し、ストップビット1bit、フロー制御無し
 
 - e2studioの立ち上げとコンパイル、実行
   - インストールしたプロジェクト一式をe2studioにインポートする
